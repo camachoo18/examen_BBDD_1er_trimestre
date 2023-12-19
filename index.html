@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>01_practica</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class ="container">
+        <p>Escribe el nombre de los participantes!</p>
+    <input type="text" id="input_usuario" placeholder="Escribe aquí" onkeydown="capturarTecla(event)">
+      <button onclick="añadir()">Añadir</button>
+      <button onclick="borrar()">Borrar</button>
+      <button onclick="sortear()">sortea</button>
+      <div class="resultadoSorteo"></div>
+    </div>
+    
+    <div class ="left">
+      <h1>Participantes</h1> 
+    <div class="resultado"></div>
+      
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

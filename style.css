@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+  }
+  
+  :root{
+    font-family: system-ui ;
+    font-size: 16px;
+  }
+  
+  body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+
+  }
+  
+  .container{
+    display:flex;
+    flex-direction: column;
+    width: 20vw;
+
+  }
+  
+  .left{
+    position: absolute;
+    top:20px;
+    left: 20px;
+
+  }
+  
+.resultado{
+  padding: 0;
+  margin: 0;
+}
+
+
+  button{
+    margin: 0.5em;
+    padding: 1em;
+    background-size: cover;
+  }
+  
+  #input_usuario{
+      margin: 0.5em;
+    padding: 1em;
+    background-size: cover;
+  }
